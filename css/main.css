@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;font-size:14px;}
+a{display:block;color:black;}
+a:hover,a:visited{text-decoration:none;color:black;}
+i{}
+/*------------------------*/
+nav{width:100%;height:28px;background:#F2F2F2;border-bottom:1px solid #ddd;font-size:12px;}
+nav .container .fl .nav_logo{background:url(../images/sole_logo.gif)no-repeat left center;display:inline-block;width:60px;height:28px;float:left;margin-right:15px;margin-left:10px;}
+nav .container .fl p{float:left;line-height:28px;font-size:12px;}
+nav .container .fl .nav_in{float:left;line-height:28px;color:black;margin-left:5px;margin-right:10px;letter-spacing:.5px;font-size:12px;}
+nav .container ul li{float:left;height:18px;}
+nav .container ul li a{font-size:12px;height:18px;margin:5px 2px 5px 0px;border-left:1px solid #DDD;padding-left:10px;color:black;display:inline-block;}
+nav .container ul li a span{display:inline-block;width:15px;height:10px;background:url(../images/ico.gif)no-repeat;background-position:-4px -120px;margin:0px 5px;}
+/*--------------nav部分结束--------------*/
+
+
+header h2{font-size:24px;color:#f60;font-family:"微软雅黑";margin:22px 0 45px 18px;}
+header ul{height:35px;background:#4FB9E0;padding:0 52px;}
+header ul li{float:left;}
+header ul li a{color:white;font:500 16px "微软雅黑";line-height:35px;padding:0 17px;}
+header ul li a:hover{background-color:#5F698C;color:white;}
+header .banner{background:url(../images/201804211815581658.jpg)no-repeat left center;width:960px;height:258px;background-size:100% 100%;}
+
+/*-----------------header部分结束---------------*/
+
+section .col_1{width:19%;margin-right:10px;float:left;}
+section .col_1 .content{width:100%;margin-top:5px;}
+section .col_1 .content .head{background:url(../images/tit_bg.gif)no-repeat;background-position:10px 8px;background-color:#F2F2F2;height:26px;border:1px solid #DDD;font:700 14px "宋体";padding-left:30px;line-height:26px;}
+section .col_1 .content ul{padding:3px 25px 8px 25px;border:1px solid #ddd;}
+section .col_1 .content ul li a span{display:inline-block;text-align:right;width:20px;margin-right:10px;font-family:"微软雅黑";}
+section .col_1 .content ul li .one span{color:red;}
+section .col_1 .content ul li a{font-size:12px;color:black;}
+section .col_1 .content ul li a:hover{background-color:#606060;color:white;}
+section .col_1 .content ul li .one:hover{background-color:#D14836;color:white;}
+section .col_1 .content ul li .one:hover span{color:white;}
+
+#emm{line-height:32px;}
+/*------------------------------------------------*/
+.content_search input[type=text]{border:1px solid #666;height:27px;margin:10px;margin-right:0;color:black;text-indent:5px;}
+.content_search input[type=button]{width:45px;height:27px;background:#666;color:white;margin-left:-10px;border:0px;}
+/*----------
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: black;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+  color: #bbb;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: #bbb;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #bbb;
+}
+----------*/
+.content_1{border:1px solid #ddd;width:100%;height:38px;background:#F8F8F8;margin-top:5px;}
+.content_1 p{font:700 14px "微软雅黑";line-height:38px;text-align:center;}
+/*----------------*/
+section .col_1 .content .cont{padding:10px 5px 5px 8px;}
+section .col_1 .content .cont li{margin-top:5px;}
+.content .cont b{font-size:12px;}
+.content .cont li i{width:55px;height:20px;float:left;font-style:normal;font-size:10px;}
+.content .cont li span{width:99px;display:inline-block;height:20px;font-size:10px;}
+.content .cont  div{text-align:right;padding:5px;}
+.content .cont  div img{display:inline-block;}
+.content .cont  div a{display:inline-block;color:black;}
+
+/*------------------*/
+iframe{width:181px;height:314px;overflow:visible;border:1px solid #ddd;padding:2px 0; }
+/*---------------*/
+#gongsi li a{border-bottom:1px solid #ddd;height:30px;padding-top:5px;text-indent:10px;}
+#gongsi li a:hover{background:#F8F8F8;color:red;}
+
+/*---------------------*/
+.col_2{float:right;width:79.8%;}
+.col_2>p{margin-top:10px;font-size:12px;}
+.col_2>p>a{color:black;display:inline;font-size:12px;}
+/*----------*/
+section .col_2 .head{background:url(../images/tit_bg.gif)no-repeat;background-position:10px 8px;background-color:#F2F2F2;height:26px;border:1px solid #DDD;font:700 15px "微软雅黑";padding-left:30px;line-height:26px;margin-top:10px;}
+section .col_2 .head a{display:inline;font-size:12px;float:right;font-weight:400;color:#6A6E73;margin-right:10px;}
+section .col_2 .content>div{border:1px solid #DDD;border-top:0;padding:20px 10px;} 
+section .col_2 .col2_one{height:270px;}
+section .col_2 .col2_one .col2_one_left{float:left;width:30%;height:250px;}
+section .col_2 .col2_one .col2_one_left .jpgBox{width:205px;height:210px;border:1px solid #ddd;padding:4px;}
+section .col_2 .col2_one .col2_one_left .jpg_big{width:200px;height:170px;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/3122678_normal%20(2).jpg)no-repeat left center;transition:all 0.5s linear;}
+
+section .col_2 .col2_one .col2_one_left .jpg_list img{border:1px solid #ddd;margin-top:1px;margin:7px 0px 0px 6px;float:left;}
+section .col_2 .col2_one .col2_one_left .jpg_list img:hover{border:1px solid red;cursor:pointer;}
+section .col_2 .col2_one .col2_one_right{}
+section .col_2 .col2_one .col2_one_right p{text-indent:2em;font:12px "微软雅黑";letter-spacing:2px;line-height:1.6em;color:black;}
+section .col_2 .col2_one .col2_one_right .ar{color:#f60;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/zk.png)no-repeat 660px center;text-align:right;margin-bottom:10px;}
+section .col_2 .col2_one .col2_one_right .ab{color:black;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/arrow_more.gif)no-repeat 220px center;text-indent:20px;}
+/*---------------------------------------------*/
+section .col_2 .col2_two{height:150px;}
+section .col_2 .col2_two ul{width:1400px;}
+section .col_2 .col2_two ul li{width:140px;height:120px;text-align:center;line-height:24px;float:left;margin-right:8px;}
+section .col_2 .col2_two ul li .sh{width:140px;height:120px;position:relative;overflow:hidden;}
+section .col_2 .col2_two ul li .sho{width:140px;height:100px;background:blue;font-size:12px;color:black;position:absolute;top:0;left:0;display:block;}
+section .col_2 .col2_two ul li .hid{width:140px;height:100px;background:rgba(0,0,0,0.7);position:absolute;top:0;left:0;display:none;-webkit-animation: fadeInDown 0.1s ease-out;text-align:center;}
+section .col_2 .col2_two ul li .hid div{border:1px solid white;width:120px;height:24px;margin:0 auto;margin-top:30px;color:white;}
+section .col_2 .col2_two ul li .hid span{color:white;font-size:10px;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/bg_r2_c1.png)no-repeat left center;padding-left:16px;}
+/*-------------------------------------------*/
+
+section .col_2 .col2_three{height:467px;}
+section .col_2 .col2_three p{font-size:12px;margin:20px 0 10px 18px;}
+section .col_2 .col2_three ul{margin-left:8px;width:751px;}
+section .col_2 .col2_three ul li{width:130px;height:180px;border:1px solid #ddd;padding:15px;text-align:center;float:left;margin-right:20px;margin-top:10px;}
+
+section .col_2 .col2_three ul li .li_top{width:100px;height:100px;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/9825bc315c6034a874a1e5adc11349540923765e.png)no-repeat left center;}
+section .col_2 .col2_three ul li .li_bottom{color:black;margin-top:15px;}
+section .col_2 .col2_three ul li .li_bottom:hover{color:red;}
+/*---------------------------------------------*/
+section .col_2 .content>.col2_four{padding:15px;}
+section .col_2 .col2_four table{width:96%;margin:0 auto;}
+section .col_2 .col2_four table td{height:34px;padding:0 10px;width:32%;font-size:12px;}
+section .col_2 .col2_four table .table_left{background:#F5F5F5;text-align:right;width:16%;}
+/*-------------------------------------------*/
+.col2_five{width:100%;height:410px;border:1px solid #DDD;margin-top:10px;padding:10px;}
+section .col_2 .col2_five ul{width:800px;}
+section .col_2 .col2_five ul li{width:140px;height:120px;text-align:center;line-height:24px;float:left;margin-right:8px;margin-bottom:10px;}
+section .col_2 .col2_five ul li .sh{width:140px;height:120px;position:relative;overflow:hidden;}
+section .col_2 .col2_five ul li .sho{width:140px;height:100px;background:blue;font-size:12px;color:black;position:absolute;top:0;left:0;display:block;}
+section .col_2 .col2_five ul li .hid{width:140px;height:100px;background:rgba(0,0,0,0.7);position:absolute;top:0;left:0;display:none;-webkit-animation: fadeInDown 0.1s ease-out;text-align:center;}
+section .col_2 .col2_five ul li .hid div{border:1px solid white;width:120px;height:24px;margin:0 auto;margin-top:30px;color:white;}
+section .col_2 .col2_five ul li .hid span{color:white;font-size:10px;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/bg_r2_c1.png)no-repeat left center;padding-left:16px;}
+/*-*---------------------*/
+
+section .col_2 .col2_six{height:410px;}
+section .col_2 .col2_six ul{margin-left:8px;width:751px;}
+section .col_2 .col2_six ul li{width:130px;height:180px;border:1px solid #ddd;padding:15px;text-align:center;float:left;margin-right:20px;margin-bottom:10px;}
+
+section .col_2 .col2_six ul li .li_top{width:100px;height:100px;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/9825bc315c6034a874a1e5adc11349540923765e.png)no-repeat left center;}
+section .col_2 .col2_six ul li .li_bottom{color:black;margin-top:15px;}
+section .col_2 .col2_six ul li .li_bottom:hover{color:red;}
+
+/*--------------------------*/
+
+
+.col2_seven{width:100%;height:68px;border:1px solid #DDD;margin-top:20px;padding:10px;}
+.col2_seven p{text-indent:2em;line-height:26px;font-size:12px;}
+.col2_seven p>b{line-height:26px;font-size:12px;}
+/*------------------------*/
+
+.index_bottom{width:100%;border:1px solid #ddd;height:138px;margin-top:10px;padding:10px;}
+.index_bottom ul{width:1000px;}
+.index_bottom ul li{width:126px;height:120px;text-align:center;line-height:24px;float:left;margin-right:8px;margin-bottom:10px;}
+.index_bottom ul li .sh{width:126px;height:120px;position:relative;overflow:hidden;}
+.index_bottom ul li .sho{width:126px;height:100px;background:blue;font-size:12px;color:black;position:absolute;top:0;left:0;display:block;}
+.index_bottom ul li .hid{width:126px;height:100px;background:rgba(0,0,0,0.7);position:absolute;top:0;left:0;display:none;-webkit-animation: fadeInDown 0.1s ease-out;text-align:center;}
+.index_bottom ul li .hid div{border:1px solid white;width:120px;height:24px;margin:0 auto;margin-top:30px;color:white;}
+.index_bottom ul li .hid span{color:white;font-size:10px;background:url(file:///D|/eclipse/Adobe%20Fireworks%20CS6/Demo/1.Demo/quansheng/images/bg_r2_c1.png)no-repeat left center;padding-left:16px;}
+/*---------------------------*/
+footer{margin-top:10px;border-top:2px solid #B70000;padding:20px;text-align:center;}
+footer ul{height:30px;}
+footer ul li{float:left;text-align:center;padding:0 10px;border-right:1px solid black;}
+footer a{color:black;font-size:10px;display:inline-block;letter-spacing:1px;}
+footer a:hover{color:red;}
+footer p{display:inline-block;font-size:12px;}
+
+
+
+
+
+
+
+
+
+
+
+
